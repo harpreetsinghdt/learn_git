@@ -19,4 +19,5 @@
 => git commit -a -m "direct commit only tracked files and skip untracked files"
 => git rm manager.txt  		(delete a file)
 => git mv school.php myschool.php (rename a file)
-=> git 
+=> git rm --cached manager.txt
+=> 
