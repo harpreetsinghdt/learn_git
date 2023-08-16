@@ -1,0 +1,22 @@
+=> git init 							(initialize Git on the folder)
+=> git --version 					(git version 2.37.1.windows.1)
+
+=> git config --global user.name "Harpreet Singh"
+=> git config --global user.email "harpreetsinghdt@gmail.com"
+
+=> git status 						(check current status of repository)
+=> git add --a 						(or git add .)
+=> git commit -m "First Commit"
+=> git log (show commit history)
+
+=> touch index.html 			(create new file)
+=> vim index.html 				(press i for insert text, esc for stop i mode, :wq for save and exit file)
+=> notepad index.html 		(also can edit file on notepad)
+
+=> vim diff (compares working directory to staging area)
+=> vim diff --staged 			(compares previous commit to current staging area)
+
+=> git commit -a -m "direct commit only tracked files and skip untracked files"
+=> git rm manager.txt  		(delete a file)
+=> git mv school.php myschool.php (rename a file)
+=> git 
