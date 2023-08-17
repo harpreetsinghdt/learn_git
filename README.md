@@ -6,7 +6,7 @@
 
 >Check git verion (git version 2.37.1.windows.1)
 
-**git --version **
+**git --version**
 
 **git config --global user.name "Harpreet Singh"**
 
