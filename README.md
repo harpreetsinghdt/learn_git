@@ -261,7 +261,21 @@ git config --global alias.last 'log -p -1'
 git last
 ```
 
-## Add New Branch
+## Git Branches
+
+> Check all existing branches
+
+```
+git branch
+```
+
+> Add new branch if not exists and shift to that new branch
+
+```
+git checkout -b develop
+```
+
+> Shift to another branch
 
 ```
 git checkout -b develop
