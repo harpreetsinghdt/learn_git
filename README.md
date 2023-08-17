@@ -24,11 +24,6 @@ git config --global user.name "Harpreet Singh"
 git config --global user.email "harpreetsinghdt@gmail.com"
 ```
 
-```
-mkdir myproject
-cd myproject
-```
-
 > Check current status of repository
 
 ```
@@ -146,7 +141,14 @@ git log --pretty=format"%h -- %ae"
 git commit --amend
 ```
 
-## Create New File
+## Create New File & directory
+
+> Make a new directory(folder) & change control to new directory
+
+```
+mkdir myproject
+cd myproject
+```
 
 > Create new file at working directory
 
