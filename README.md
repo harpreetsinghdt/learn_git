@@ -256,6 +256,11 @@ git config --global alias.unstage 'restore --staged --'
 git unstage filename.txt
 ```
 
+```
+git config --global alias.last 'log -p -1'
+git last
+```
+
 
 
 
