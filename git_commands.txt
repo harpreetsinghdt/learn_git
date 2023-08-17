@@ -5,7 +5,12 @@ git config --global user.name "Harpreet Singh"
 git config --global user.email "harpreetsinghdt@gmail.com"
 
 git status 						(check current status of repository)
-git add --a 						(or git add .)
+
+git add .							(to move file to staging area)
+git add --a 					(to move file to staging area)
+git add filename.txt 	(to move file to staging area)
+git restore --staged filename.txt 
+
 git commit -m "First Commit"
 git log (show commit history, press q to exit from history)
 git log -p (show commit history with changes, press q to exit from history)
@@ -19,7 +24,6 @@ git log --since=2.days (years, months, weeks)
 git log --pretty=format"%h -- %an" (format output as abbreviated commit hash -- author name)
 git log --pretty=format"%h -- %ae" (format output as abbreviated commit hash -- author email)
 git commit --amend (it will open vim editor to change commit msg for that file and will update the new commit msg etc)
-
 
 touch index.html 			(create new file)
 vim index.html 				(press i for insert text, esc for stop i mode, :wq for save and exit file)
