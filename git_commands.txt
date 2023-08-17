@@ -42,3 +42,13 @@ rm -rf .git (remove currect directory as git repository - git is no more trackin
 
 git clone https://github.com/harpreetsinghdt/javascript-code.git (cloning/ making local copy of repository from github with same name as on github)
 git clone https://github.com/harpreetsinghdt/javascript-code.git jscode (cloning/ making local copy of repository from github with new name as mentioned after repository url)
+
+
+## Git Remote
+git remote add origin https://github.com/harpreetsinghdt/codehome.git
+git branch -M main
+git push -u origin main
+
+git remote (tells directory name)
+git remote -v (tells pull & push path)
+
