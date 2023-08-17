@@ -1,11 +1,11 @@
 # Learn Git
 
->Initialize Git on the folder
+> Initialize Git on the folder
 
 **git init** 
 
 
->Check git verion (git version 2.37.1.windows.1)
+> Check git verion (git version 2.37.1.windows.1)
 
 **git --version**
 
@@ -14,13 +14,15 @@
 
 **git config --global user.email "harpreetsinghdt@gmail.com"**
 
->Check current status of repository
+
+> Check current status of repository
 
 **git status**
 
+
 ## Adding File To Staging Area
 
->Move single file to staging area
+> Move single file to staging area
 
 **git add filename.txt**
 
@@ -30,79 +32,129 @@
 
 **git add --a**
 
+**git commit -m "First Commit"**
 
 **git restore --staged filename.txt**
 
-git checkout -- filename.txt ()
+**git checkout -- filename.txt**
 
-git checkout -f
+**git checkout -f**
 
-git commit -m "First Commit"
 
 ## Checking Git Log
 
-git log (show commit history, press q to exit from history)
+> Show commit history, press q to exit from history
 
-git log -p (show commit history with changes, press q to exit from history)
+**git log**
 
-git log -p -3 (-n, show with diff)
+**git log -p**
 
-git log --stat (short summary, addition, deletion)
+> Show n number of log
 
-git log --pretty
+**git log -p -3**
 
-git log --pretty=oneline (all commits in one line)
+> Show short summary, addition, deletion
 
-git log --pretty=short (commit, author, detail)
+**git log --stat**
 
-git log --pretty=full (commit, author, commitor, details)
+> Show log with format
 
-git log --since=2.days (years, months, weeks)
+**git log --pretty**
 
-git log --pretty=format"%h -- %an" (format output as abbreviated commit hash -- author name)
+> Show all commits in one line
 
-git log --pretty=format"%h -- %ae" (format output as abbreviated commit hash -- author email)
+**git log --pretty=oneline**
 
-git commit --amend (it will open vim editor to change commit msg for that file and will update the new commit msg etc)
+> Show commit, author, message
+
+**git log --pretty=short**
+
+> Show commit, author, commitor, message
+
+**git log --pretty=full**
+
+> Show previous n.years/months/weeks/days
+
+**git log --since=2.days**
+
+> Show formatted output as abbreviated commit hash -- author name
+
+**git log --pretty=format"%h -- %an"**
+
+> Show formatted output as abbreviated commit hash -- author email
+
+**git log --pretty=format"%h -- %ae"**
+
+> It will open vim editor to change commit message for that file and will update the new commit message etc
+
+**git commit --amend**
 
 ## Create New File
-touch index.html (create new file)
 
-vim index.html (press i for insert text, esc for stop i mode, :wq for save and exit file)
+> Create new file at working directory
 
-notepad index.html (also can edit file on notepad)
+**touch index.html**
 
-vim diff (compares working directory to staging area)
+> Press i for insert text, esc for stop insert mode, :wq for save and exit file)
 
-vim diff --staged (compares previous commit to current staging area)
+**vim index.html**
 
+>  Also can edit file in notepad
 
-git commit -a -m "direct commit only tracked files and skip untracked files"
+**notepad index.html**
 
-git rm manager.txt (delete a file)
+> Compares working directory to staging area
 
-git mv school.php myschool.php (rename a file)
+**git diff**
 
-git rm --cached manager.txt (remove tracked file from git cache after adding to ignore but before it was tracked by git)
+> Compares previous commit to current staging area
 
-rm -rf .git (remove currect directory as git repository - git is no more tracking files from this folder)
+**git diff --staged**
+
+> Direct commit, only commit tracked files and skip untracked files
+
+**git commit -a -m "direct commit only tracked files and skip untracked files"**
+
+>  Delete a file
+
+**git rm manager.txt**
+
+> Rename file
+
+**git mv school.php myschool.php**
+
+> Remove tracked file from git cache after adding to ignore but before it was tracked by git
+
+**git rm --cached manager.txt**
+
+> Remove currect directory which is currently a git repository - git will no more tracking files from this folder
+
+**rm -rf .git**
 
 
 ## Git Clone from remote
 
-git clone https://github.com/harpreetsinghdt/javascript-code.git (cloning/ making local copy of repository from github with same name as on github)
+> Cloning / making local copy of repository from github with same name as on github
 
-git clone https://github.com/harpreetsinghdt/javascript-code.git jscode (cloning/ making local copy of repository from github with new name as mentioned after repository url)
+**git clone https://github.com/harpreetsinghdt/javascript-code.git**
+
+> Cloning/ making local copy of repository from github with new name as mentioned after repository url
+
+**git clone https://github.com/harpreetsinghdt/javascript-code.git jscode**
 
 
 ## Git Add Remote Repo 
 
-git remote add origin https://github.com/harpreetsinghdt/codehome.git
+**git remote add origin https://github.com/harpreetsinghdt/codehome.git**
 
-git branch -M main
+**git branch -M main**
 
-git push -u origin main
+**git push -u origin main**
 
-git remote (tells directory name)
+> Check remote directory name
 
-git remote -v (tells pull & push path)
+**git remote**
+
+> Tells pull & push path)
+
+**git remote -v**
