@@ -8,79 +8,124 @@ git init
 
 > Check git verion (git version 2.37.1.windows.1)
 
-```git --version```
+```
+git --version
+```
 
-```git config --global user.name "Harpreet Singh"```
+```
+git config --global user.name "Harpreet Singh"
+```
 
-```git config --global user.email "harpreetsinghdt@gmail.com"```
+```
+git config --global user.email "harpreetsinghdt@gmail.com"
+```
 
 > Check current status of repository
 
-```git status```
+```
+git status
+```
 
 ## Adding File To Staging Area
 
 > Move single file to staging area
 
-```git add filename.txt```
+```
+git add filename.txt
+```
 
 > Move all files to staging area
 
-```git add .```
+```
+git add .
+```
 
-```git add --a```
+```
+git add --a
+```
 
-```git commit -m "First Commit"```
+```
+git commit -m "First Commit"
+```
 
-```git restore --staged filename.txt```
+```
+git restore --staged filename.txt
+```
 
-```git checkout -- filename.txt```
+```
+git checkout -- filename.txt
+```
 
-```git checkout -f```
+```
+git checkout -f
+
+```
 
 ## Checking Git Log
 
 > Show commit history, press q to exit from history
 
-```git log```
+```
+git log
+```
 
-```git log -p```
+```
+git log -p
+```
 
 > Show n number of log
 
-```git log -p -3```
+```
+git log -p -3
+```
 
 > Show short summary, addition, deletion
 
-```git log --stat```
+```
+git log --stat
+```
 
 > Show log with format
 
-```git log --pretty```
+```
+git log --pretty
+```
 
 > Show all commits in one line
 
-```git log --pretty=oneline```
+```
+git log --pretty=oneline
+```
 
 > Show commit, author, message
 
-```git log --pretty=short```
+```
+git log --pretty=short
+```
 
 > Show commit, author, commitor, message
 
-```git log --pretty=full```
+```
+git log --pretty=full
+```
 
 > Show previous n.years/months/weeks/days
 
-```git log --since=2.days```
+```
+git log --since=2.days
+```
 
 > Show formatted output as abbreviated commit hash -- author name
 
-```git log --pretty=format"%h -- %an"```
+```
+git log --pretty=format"%h -- %an"
+```
 
 > Show formatted output as abbreviated commit hash -- author email
 
-```git log --pretty=format"%h -- %ae"```
+```
+git log --pretty=format"%h -- %ae"
+```
 
 > It will open vim editor to change commit message for that file and will update the new commit message etc
 
