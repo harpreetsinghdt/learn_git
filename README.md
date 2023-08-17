@@ -8,83 +8,83 @@ git init
 
 > Check git verion (git version 2.37.1.windows.1)
 
-```it --version```
+```git --version```
 
-```it config --global user.name "Harpreet Singh"```
+```git config --global user.name "Harpreet Singh"```
 
-```it config --global user.email "harpreetsinghdt@gmail.com"```
+```git config --global user.email "harpreetsinghdt@gmail.com"```
 
 > Check current status of repository
 
-```it status```
+```git status```
 
 ## Adding File To Staging Area
 
 > Move single file to staging area
 
-```it add filename.txt```
+```git add filename.txt```
 
 > Move all files to staging area
 
-```it add .```
+```git add .```
 
-```it add --a```
+```git add --a```
 
-```it commit -m "First Commit"```
+```git commit -m "First Commit"```
 
-```it restore --staged filename.txt```
+```git restore --staged filename.txt```
 
-```it checkout -- filename.txt```
+```git checkout -- filename.txt```
 
-```it checkout -f```
+```git checkout -f```
 
 ## Checking Git Log
 
 > Show commit history, press q to exit from history
 
-```it log```
+```git log```
 
-```it log -p```
+```git log -p```
 
 > Show n number of log
 
-```it log -p -3```
+```git log -p -3```
 
 > Show short summary, addition, deletion
 
-```it log --stat```
+```git log --stat```
 
 > Show log with format
 
-```it log --pretty```
+```git log --pretty```
 
 > Show all commits in one line
 
-```it log --pretty=oneline```
+```git log --pretty=oneline```
 
 > Show commit, author, message
 
-```it log --pretty=short```
+```git log --pretty=short```
 
 > Show commit, author, commitor, message
 
-```it log --pretty=full```
+```git log --pretty=full```
 
 > Show previous n.years/months/weeks/days
 
-```it log --since=2.days```
+```git log --since=2.days```
 
 > Show formatted output as abbreviated commit hash -- author name
 
-```it log --pretty=format"%h -- %an"```
+```git log --pretty=format"%h -- %an"```
 
 > Show formatted output as abbreviated commit hash -- author email
 
-```it log --pretty=format"%h -- %ae"```
+```git log --pretty=format"%h -- %ae"```
 
 > It will open vim editor to change commit message for that file and will update the new commit message etc
 
-```it commit --amend```
+```git commit --amend```
 
 ## Create New File
 
@@ -102,27 +102,27 @@ git init
 
 > Compares working directory to staging area
 
-```it diff```
+```git diff```
 
 > Compares previous commit to current staging area
 
-```it diff --staged```
+```git diff --staged```
 
 > Direct commit, only commit tracked files and skip untracked files
 
-```it commit -a -m "direct commit only tracked files and skip untracked files"```
+```git commit -a -m "direct commit only tracked files and skip untracked files"```
 
 > Delete a file
 
-```it rm manager.txt```
+```git rm manager.txt```
 
 > Rename file
 
-```it mv school.php myschool.php```
+```git mv school.php myschool.php```
 
 > Remove tracked file from git cache after adding to ignore but before it was tracked by git
 
-```it rm --cached manager.txt```
+```git rm --cached manager.txt```
 
 > Remove currect directory which is currently a git repository - git will no more tracking files from this folder
 
@@ -132,24 +132,24 @@ git init
 
 > Cloning / making local copy of repository from github with same name as on github
 
-```it clone https://github.com/harpreetsinghdt/javascript-code.git```
+```git clone https://github.com/harpreetsinghdt/javascript-code.git```
 
 > Cloning/ making local copy of repository from github with new name as mentioned after repository url
 
-```it clone https://github.com/harpreetsinghdt/javascript-code.git jscode```
+```git clone https://github.com/harpreetsinghdt/javascript-code.git jscode```
 
 ## Git Add Remote Repo
 
-```it remote add origin https://github.com/harpreetsinghdt/codehome.git```
+```git remote add origin https://github.com/harpreetsinghdt/codehome.git```
 
-```it branch -M main```
+```git branch -M main```
 
-```it push -u origin main```
+```git push -u origin main```
 
 > Check remote directory name
 
-```it remote```
+```git remote```
 
 > Tells pull & push path)
 
-```it remote -v```
+```git remote -v```
