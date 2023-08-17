@@ -236,6 +236,5 @@ git remote -v
 ```
 
 
-**
-
-[GitHub Docs](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#headings)
+*[GitHub Tutorial](https://git-scm.com/docs/gittutorial)*
+*[GitHub Docs](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#headings)*
