@@ -1,29 +1,22 @@
 # Learn Git
-```
-> [!NOTE]
+
 > Initialize Git on the folder
 
-> **git init** 
-
 ```
-
-
-
+git init
+```
 
 > Check git verion (git version 2.37.1.windows.1)
 
 **git --version**
 
-
 **git config --global user.name "Harpreet Singh"**
 
 **git config --global user.email "harpreetsinghdt@gmail.com"**
 
-
 > Check current status of repository
 
 **git status**
-
 
 ## Adding File To Staging Area
 
@@ -31,7 +24,7 @@
 
 **git add filename.txt**
 
->Move all files to staging area
+> Move all files to staging area
 
 **git add .**
 
@@ -44,7 +37,6 @@
 **git checkout -- filename.txt**
 
 **git checkout -f**
-
 
 ## Checking Git Log
 
@@ -104,7 +96,7 @@
 
 **vim index.html**
 
->  Also can edit file in notepad
+> Also can edit file in notepad
 
 **notepad index.html**
 
@@ -120,7 +112,7 @@
 
 **git commit -a -m "direct commit only tracked files and skip untracked files"**
 
->  Delete a file
+> Delete a file
 
 **git rm manager.txt**
 
@@ -136,7 +128,6 @@
 
 **rm -rf .git**
 
-
 ## Git Clone from remote
 
 > Cloning / making local copy of repository from github with same name as on github
@@ -147,8 +138,7 @@
 
 **git clone https://github.com/harpreetsinghdt/javascript-code.git jscode**
 
-
-## Git Add Remote Repo 
+## Git Add Remote Repo
 
 **git remote add origin https://github.com/harpreetsinghdt/codehome.git**
 
