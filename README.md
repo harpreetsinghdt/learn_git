@@ -12,6 +12,10 @@ git init
 git --version
 ```
 
+## Configure Git
+
+> Let Git know who you are as each Git commit uses this information
+
 ```
 git config --global user.name "Harpreet Singh"
 ```
@@ -137,7 +141,14 @@ git log --pretty=format"%h -- %ae"
 git commit --amend
 ```
 
-## Create New File
+## Create New File & directory
+
+> Make a new directory(folder) & change control to new directory
+
+```
+mkdir myproject
+cd myproject
+```
 
 > Create new file at working directory
 
@@ -261,9 +272,31 @@ git config --global alias.last 'log -p -1'
 git last
 ```
 
+## Git Branches
 
+> Check all existing branches
 
+```
+git branch
+```
 
+> Add new branch if not exists and shift to that new branch
+
+```
+git checkout -b develop
+```
+
+> Shift to another branch
+
+```
+git checkout -b develop
+```
+
+> To push the current branch and set the remote as upstream
+
+```
+git push --set-upstream origin master
+```
 
 
 
