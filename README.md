@@ -10,13 +10,23 @@ git config --global user.email "harpreetsinghdt@gmail.com"
 
 git status (check current status of repository)
 
+## adding file to staging area
+
 git add .	(to move file to staging area)
+
 git add --a (to move file to staging area)
+
 git add filename.txt (to move file to staging area)
+
 git restore --staged filename.txt ()
+
 git checkout -- filename.txt ()
+
 git checkout -f
+
 git commit -m "First Commit"
+
+## Checking git log
 
 git log (show commit history, press q to exit from history)
 git log -p (show commit history with changes, press q to exit from history)
@@ -44,11 +54,14 @@ git mv school.php myschool.php (rename a file)
 git rm --cached manager.txt (remove tracked file from git cache after adding to ignore but before it was tracked by git)
 rm -rf .git (remove currect directory as git repository - git is no more tracking files from this folder)
 
+## Git Clone from remote
+
 git clone https://github.com/harpreetsinghdt/javascript-code.git (cloning/ making local copy of repository from github with same name as on github)
 git clone https://github.com/harpreetsinghdt/javascript-code.git jscode (cloning/ making local copy of repository from github with new name as mentioned after repository url)
 
 
-## Git Remote
+## Git Add Remote Repo 
+
 git remote add origin https://github.com/harpreetsinghdt/codehome.git
 git branch -M main
 git push -u origin main
