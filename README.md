@@ -272,12 +272,48 @@ git config --global alias.last 'log -p -1'
 git last
 ```
 
-## Git Branches
+## Git Branches & Merge
 
 > Check all existing branches
 
 ```
 git branch
+```
+
+> Show branches with last commit hash & message
+
+```
+git branch -v
+```
+
+> Show all branches which are already merged, could be deleted
+
+```
+git branch --merged
+```
+
+> Show all branches which are not merged yet, shouldn't be deleted
+
+```
+git branch --no-merged
+```
+
+> To delete a branch, it will give error if branch (develop) is not merged, to force delete use -D
+
+```
+git branch -d develop
+```
+
+> Merge branch develop to msater
+
+```
+git merge develop
+```
+
+> Merge abort branch
+
+```
+git merge --abort
 ```
 
 > Add new branch if not exists and shift to that new branch
