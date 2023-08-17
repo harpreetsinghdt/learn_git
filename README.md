@@ -261,7 +261,11 @@ git config --global alias.last 'log -p -1'
 git last
 ```
 
+## Add New Branch
 
+```
+git checkout -b develop
+```
 
 
 
