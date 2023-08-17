@@ -238,6 +238,22 @@ git remote -v
 
 
 
-*[GitHub Tutorial](https://git-scm.com/docs/gittutorial)*
-*[GitHub Docs](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#headings)*
-*[Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)*
+> *[GitHub Tutorial](https://git-scm.com/docs/gittutorial)*
+
+> *[GitHub Docs](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#headings)*
+
+> *[Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)*
+
+
+```
+ ssh-keygen -t ed25519 -C "harpreetsinghdt@gmail.com"
+ eval "$(ssh-agent -s)"
+ ssh-add ~/.ssh/id_ed25519
+```
+
+> *[Adding a new SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)*
+
+```
+ tail ~/.ssh/id_ed25519.pub
+
+```
