@@ -229,8 +229,11 @@ git push -u origin main
 git remote
 ```
 
-> Tells pull & push path)
+> Tells pull & push path
 
 ```
 git remote -v
 ```
+
+
+*https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#headings*
