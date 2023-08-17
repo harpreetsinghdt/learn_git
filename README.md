@@ -189,7 +189,7 @@ git mv school.php myschool.php
 git rm --cached manager.txt
 ```
 
-> Remove currect directory which is currently a git repository - git will no more tracking files from this folder
+> Remove currect directory which is currently a git directory - git will no more tracking files from this folder
 
 ```
 rm -rf .git
