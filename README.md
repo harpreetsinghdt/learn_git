@@ -239,7 +239,7 @@ git remote
 git remote -v
 ```
 
-> Alias name for commands
+## Alias for commands
 
 ```
 git config --global alias.st status
