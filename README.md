@@ -1,5 +1,6 @@
 # Learn Git
 
+> [!NOTE]
 > Initialize Git on the folder
 
 > **git init** 
