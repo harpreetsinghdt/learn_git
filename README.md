@@ -1,9 +1,11 @@
 # Learn Git
 
 >Initialize Git on the folder
+
 **git init** 
 
 >Check git verion (git version 2.37.1.windows.1)
+
 **git --version **
 
 **git config --global user.name "Harpreet Singh"**
@@ -11,6 +13,7 @@
 **git config --global user.email "harpreetsinghdt@gmail.com"**
 
 >Check current status of repository
+
 **git status**
 
 ## Adding File To Staging Area
@@ -20,6 +23,7 @@
 **git add filename.txt**
 
 >Move all files to staging area
+
 **git add .**
 
 **git add --a**
