@@ -11,6 +11,7 @@ git add --a (to move file to staging area)
 git add filename.txt (to move file to staging area)
 git restore --staged filename.txt ()
 git checkout -- filename.txt ()
+git checkout -f
 git commit -m "First Commit"
 
 git log (show commit history, press q to exit from history)
