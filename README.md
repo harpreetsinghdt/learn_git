@@ -334,6 +334,12 @@ git checkout -b develop
 git push --set-upstream origin master
 ```
 
+> To push a local branch to remote branch
+
+```
+git push origin develop
+```
+
 ## Official Tutorials
 
 > _[GitHub Tutorial](https://git-scm.com/docs/gittutorial)_
