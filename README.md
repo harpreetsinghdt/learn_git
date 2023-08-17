@@ -317,5 +317,4 @@ git push --set-upstream origin master
 
 ```
  tail ~/.ssh/id_ed25519.pub
-
 ```
