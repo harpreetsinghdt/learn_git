@@ -298,14 +298,11 @@ git checkout -b develop
 git push --set-upstream origin master
 ```
 
+> _[GitHub Tutorial](https://git-scm.com/docs/gittutorial)_
 
+> _[GitHub Docs](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#headings)_
 
-> *[GitHub Tutorial](https://git-scm.com/docs/gittutorial)*
-
-> *[GitHub Docs](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#headings)*
-
-> *[Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)*
-
+> _[Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)_
 
 ```
  ssh-keygen -t ed25519 -C "harpreetsinghdt@gmail.com"
@@ -313,7 +310,7 @@ git push --set-upstream origin master
  ssh-add ~/.ssh/id_ed25519
 ```
 
-> *[Adding a new SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)*
+> _[Adding a new SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)_
 
 ```
  tail ~/.ssh/id_ed25519.pub
