@@ -1,6 +1,7 @@
 # Learn Git
 
-**git init** <(initialize Git on the folder)>
+**git init** 
+>(initialize Git on the folder)
 
 git --version (git version 2.37.1.windows.1)
 
