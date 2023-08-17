@@ -129,72 +129,108 @@ git log --pretty=format"%h -- %ae"
 
 > It will open vim editor to change commit message for that file and will update the new commit message etc
 
-```git commit --amend```
+```
+git commit --amend
+```
 
 ## Create New File
 
 > Create new file at working directory
 
-```touch index.html```
+```
+touch index.html
+```
 
 > Press i for insert text, esc for stop insert mode, :wq for save and exit file)
 
-```vim index.html```
+```
+vim index.html
+```
 
 > Also can edit file in notepad
 
-```notepad index.html```
+```
+notepad index.html
+```
 
 > Compares working directory to staging area
 
-```git diff```
+```
+git diff
+```
 
 > Compares previous commit to current staging area
 
-```git diff --staged```
+```
+git diff --staged
+```
 
 > Direct commit, only commit tracked files and skip untracked files
 
-```git commit -a -m "direct commit only tracked files and skip untracked files"```
+```
+git commit -a -m "direct commit only tracked files and skip untracked files"
+```
 
 > Delete a file
 
-```git rm manager.txt```
+```
+git rm manager.txt
+```
 
 > Rename file
 
-```git mv school.php myschool.php```
+```
+git mv school.php myschool.php
+```
 
 > Remove tracked file from git cache after adding to ignore but before it was tracked by git
 
-```git rm --cached manager.txt```
+```
+git rm --cached manager.txt
+```
 
 > Remove currect directory which is currently a git repository - git will no more tracking files from this folder
 
-```rm -rf .git```
+```
+rm -rf .git
+```
 
 ## Git Clone from remote
 
 > Cloning / making local copy of repository from github with same name as on github
 
-```git clone https://github.com/harpreetsinghdt/javascript-code.git```
+```
+git clone https://github.com/harpreetsinghdt/javascript-code.git
+```
 
 > Cloning/ making local copy of repository from github with new name as mentioned after repository url
 
-```git clone https://github.com/harpreetsinghdt/javascript-code.git jscode```
+```
+git clone https://github.com/harpreetsinghdt/javascript-code.git jscode
+```
 
 ## Git Add Remote Repo
 
-```git remote add origin https://github.com/harpreetsinghdt/codehome.git```
+```
+git remote add origin https://github.com/harpreetsinghdt/codehome.git
+```
 
-```git branch -M main```
+```
+git branch -M main
+```
 
-```git push -u origin main```
+```
+git push -u origin main
+```
 
 > Check remote directory name
 
-```git remote```
+```
+git remote
+```
 
 > Tells pull & push path)
 
-```git remote -v```
+```
+git remote -v
+```
