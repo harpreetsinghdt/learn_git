@@ -229,12 +229,15 @@ git push -u origin main
 git remote
 ```
 
-> Tells pull & push path
+> Tells pull & push origin (url)
 
 ```
 git remote -v
 ```
 
 
+
+
 *[GitHub Tutorial](https://git-scm.com/docs/gittutorial)*
 *[GitHub Docs](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#headings)*
+*[Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)*
