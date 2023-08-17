@@ -26,6 +26,10 @@ git config --global user.email "harpreetsinghdt@gmail.com"
 git status
 ```
 
+```
+git status --short
+```
+
 ## Adding File To Staging Area
 
 > Move single file to staging area
@@ -234,6 +238,26 @@ git remote
 ```
 git remote -v
 ```
+
+> Alias name for commands
+
+```
+git config --global alias.st status
+git st
+```
+
+```
+git config --global alias.ci commit
+git ci
+```
+
+```
+git config --global alias.unstage 'restore --staged --'
+git unstage filename.txt
+```
+
+
+
 
 
 
