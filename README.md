@@ -1,9 +1,11 @@
 # Learn Git
 
 git init (initialize Git on the folder)
+
 git --version (git version 2.37.1.windows.1)
 
 git config --global user.name "Harpreet Singh"
+
 git config --global user.email "harpreetsinghdt@gmail.com"
 
 git status (check current status of repository)
