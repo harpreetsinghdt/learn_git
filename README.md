@@ -272,12 +272,48 @@ git config --global alias.last 'log -p -1'
 git last
 ```
 
-## Git Branches
+## Git Branches & Merge
 
 > Check all existing branches
 
 ```
 git branch
+```
+
+> Show branches with last commit hash & message
+
+```
+git branch -v
+```
+
+> Show all branches which are already merged, could be deleted
+
+```
+git branch --merged
+```
+
+> Show all branches which are not merged yet, shouldn't be deleted
+
+```
+git branch --no-merged
+```
+
+> To delete a branch, it will give error if branch (develop) is not merged, to force delete use -D
+
+```
+git branch -d develop
+```
+
+> Merge branch develop to msater
+
+```
+git merge develop
+```
+
+> Merge abort branch
+
+```
+git merge --abort
 ```
 
 > Add new branch if not exists and shift to that new branch
@@ -298,14 +334,25 @@ git checkout -b develop
 git push --set-upstream origin master
 ```
 
+> To push a local branch to remote branch
 
+```
+git push origin develop
+```
 
-> *[GitHub Tutorial](https://git-scm.com/docs/gittutorial)*
+> Delete a remote branch
 
-> *[GitHub Docs](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#headings)*
+```
+git push -d origin develop
+```
 
-> *[Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)*
+## Official Tutorials
 
+> _[GitHub Tutorial](https://git-scm.com/docs/gittutorial)_
+
+> _[GitHub Docs](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#headings)_
+
+> _[Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)_
 
 ```
  ssh-keygen -t ed25519 -C "harpreetsinghdt@gmail.com"
@@ -313,7 +360,7 @@ git push --set-upstream origin master
  ssh-add ~/.ssh/id_ed25519
 ```
 
-> *[Adding a new SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)*
+> _[Adding a new SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)_
 
 ```
  tail ~/.ssh/id_ed25519.pub
