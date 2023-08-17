@@ -12,12 +12,21 @@ git init
 git --version
 ```
 
+## Configure Git
+
+> Let Git know who you are as each Git commit uses this information
+
 ```
 git config --global user.name "Harpreet Singh"
 ```
 
 ```
 git config --global user.email "harpreetsinghdt@gmail.com"
+```
+
+```
+mkdir myproject
+cd myproject
 ```
 
 > Check current status of repository
@@ -281,7 +290,11 @@ git checkout -b develop
 git checkout -b develop
 ```
 
+> To push the current branch and set the remote as upstream
 
+```
+git push --set-upstream origin master
+```
 
 
 
