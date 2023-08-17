@@ -2,7 +2,7 @@
 
 > Initialize Git on the folder
 
-**git init** 
+> **git init** 
 
 
 > Check git verion (git version 2.37.1.windows.1)
