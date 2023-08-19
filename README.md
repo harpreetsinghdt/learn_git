@@ -304,6 +304,10 @@ git branch --no-merged
 git branch -d develop
 ```
 
+```
+git branch --delete <branchname>
+```
+
 > Merge branch develop to msater
 
 ```
@@ -347,8 +351,8 @@ git push -d origin develop
 ```
 
 > The upstream branch of your current branch does not match
-the name of your current branch.  To push to the upstream branch
-on the remote, use
+> the name of your current branch. To push to the upstream branch
+> on the remote, use
 
 ```
 git push origin HEAD:main
@@ -363,7 +367,6 @@ git push origin HEAD
 > To choose either option permanently, see push.default in 'git help config'.
 
 > To avoid automatically configuring upstream branches when their name doesn't match the local branch, see option 'simple' of branch.autoSetupMerge in 'git help config'.
-
 
 ## Official Tutorials
 
