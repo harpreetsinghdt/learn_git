@@ -387,3 +387,5 @@ git push origin HEAD
 ```
  tail ~/.ssh/id_ed25519.pub
 ```
+
+> [Configure and use aliases in ZSH](https://linuxhint.com/configure-use-aliases-zsh/)
