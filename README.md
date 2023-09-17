@@ -368,6 +368,20 @@ git push origin HEAD
 
 > To avoid automatically configuring upstream branches when their name doesn't match the local branch, see option 'simple' of branch.autoSetupMerge in 'git help config'.
 
+## Remove the files from git's index
+
+> If you committed node_modules before they were added to the gitignore file, git is going to notice changes each time you add and install a new package, when the node_modules directory changes. So we need one more step to seal the deal.
+
+```
+git rm -r --cached node_modules
+```
+
+> Now we need to commit our changes. This commit will include our .gitignore addition from the previous step.
+
+```
+git commit -m "Remove and ignore node_modules"
+```
+
 ## Official Tutorials
 
 > _[GitHub Tutorial](https://git-scm.com/docs/gittutorial)_
