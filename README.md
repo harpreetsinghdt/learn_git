@@ -347,7 +347,7 @@ git push origin develop
 > Delete a remote branch
 
 ```
-git push -d origin develop
+git remote rm origin
 ```
 
 > The upstream branch of your current branch does not match
@@ -367,6 +367,12 @@ git push origin HEAD
 > To choose either option permanently, see push.default in 'git help config'.
 
 > To avoid automatically configuring upstream branches when their name doesn't match the local branch, see option 'simple' of branch.autoSetupMerge in 'git help config'.
+
+> Git refusing to merge unrelated histories on rebase
+
+```
+git pull origin main --allow-unrelated-histories
+```
 
 ## Remove the files from git's index
 
